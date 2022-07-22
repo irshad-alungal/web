@@ -197,7 +197,6 @@ ul
 .aside .logo a
 {
     color: var(--text-black-900);
-    margin-top: -10px;
     font-weight: 700;
     padding: 15px 20px;
     font-size: 30px;
