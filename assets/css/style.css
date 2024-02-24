@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -17,11 +15,16 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.justifier{
+.justifier {
   text-align: justify;
 }
 
@@ -89,7 +92,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -123,6 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     left: -300px;
   }
+
   #main {
     margin-left: 0;
   }
@@ -142,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -163,12 +168,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active>a i,
+.nav-menu li:hover>a i {
   color: #149ddd;
 }
 
@@ -265,6 +274,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
@@ -275,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Social More
 --------------------------------------------------------------*/
-.btn{
+.btn {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -290,11 +300,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.btn:hover{
+.btn:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
 }
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -448,6 +459,7 @@ section {
   background-color: #149ddd;
   border-radius: 50px;
 }
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -484,17 +496,22 @@ section {
 }
 
 .card-heading {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
   background: #f5f8fd;
   padding: 10px 15px;
+  color: #272829;
 }
 
 .card-text {
-  padding: 10px 15px;
-  background: #f5f8fd;
+  padding: 15px 15px;
   font-size: 14px;
   color: #636262;
+}
+
+.background-box-1 {
+  background-color: #f5f8fd;
+  border-radius: 8px
 }
 
 .card-button {
@@ -517,28 +534,89 @@ section {
 
 @-webkit-keyframes pulse {
   0% {
-      -moz-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-      -webkit-transform: scale(0.9);
-      transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
   }
 
   70% {
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
   }
 
   100% {
-      -moz-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-      -webkit-transform: scale(0.9);
-      transform: scale(0.9);
-      box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
   }
 }
+
+.language {
+  margin: 1px;
+  padding: 1px 7px;
+  color: #fff;
+  height: 25px;
+  /* background-color: #0e2442; */
+  border-radius: 10px;
+}
+
+.html {
+  background-color: #e5532d;
+}
+
+.css {
+  background-color: #1c76b8;
+}
+
+.js {
+  background-color: #f7e025;
+}
+
+.bt {
+  background-color: #5c4081;
+}
+
+.live {
+  background-color: #23b574;
+  margin-right: 1rem;
+  padding: 1px 7px;
+  color: #fff;
+  font-size: 0.8rem;
+  height: 1.3rem;
+  border-radius: 10px;
+}
+
+.host {
+  background-color: #d3270c;
+  margin-right: 1rem;
+  padding: 1px 7px;
+  color: #fff;
+  font-size: 0.8rem;
+  height: 1.3rem;
+  border-radius: 10px;
+}
+
+.wp {
+  background-color: #28799e;
+}
+.api {
+  background-color: #8809a1;
+}
+
+.fa-up-right-from-square {
+  color: #040b14;
+}
+
+.fa-up-right-from-square:hover {
+  color: #149ddd;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -630,7 +708,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -683,7 +762,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
 }
 
@@ -730,7 +809,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.work #work-flters li:hover, .work #work-flters li.filter-all {
+.work #work-flters li:hover,
+.work #work-flters li.filter-all {
   color: #149ddd;
 }
 
@@ -850,7 +930,8 @@ section {
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
@@ -891,7 +972,8 @@ section {
   left: calc(50% - 20px);
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -986,7 +1068,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -1019,7 +1103,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1052,7 +1136,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1083,6 +1168,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1092,6 +1178,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1119,11 +1206,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
@@ -1134,9 +1221,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -1158,7 +1247,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1200,7 +1290,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1223,6 +1313,7 @@ section {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
+
   .portfolio-details .portfolio-info {
     position: static;
     margin-top: 30px;
