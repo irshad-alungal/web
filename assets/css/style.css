@@ -602,6 +602,26 @@ section {
   border-radius: 10px;
 }
 
+.learning {
+  background-color: #340cd3;
+  margin-right: 1rem;
+  padding: 1px 7px;
+  color: #fff;
+  font-size: 0.8rem;
+  height: 1.3rem;
+  border-radius: 10px;
+}
+
+.m-test {
+  background-color: #d30c8d;
+  margin-right: 1rem;
+  padding: 1px 7px;
+  color: #fff;
+  font-size: 0.8rem;
+  height: 1.3rem;
+  border-radius: 10px;
+}
+
 .wp {
   background-color: #28799e;
 }
@@ -617,6 +637,60 @@ section {
   color: #149ddd;
 }
 
+.box-01 {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  margin: 5px 15px;
+  padding: 5px 15px;
+}
+.box-01:hover {
+  border-radius: 5px;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 5px 15px;
+  padding: 5px 15px;
+}
+.box-02 {
+  border-radius: 5px;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 5px 15px;
+  padding: 5px 15px;
+}
+.box-02:hover {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  margin: 5px 15px;
+  padding: 5px 15px;
+}
+.box-03 {
+  border-radius: 5px;
+  background-color: #f5f8fd;
+  border: 1px solid #dedede;
+  color: #dedede;
+  margin: 5px 15px;
+  padding: 5px 15px;
+}
+.box-03:hover {
+  border-radius: 5px;
+  background-color: #f5f8fd;
+  border: 1px solid #dedede;
+  color: #dedede;
+  margin: 5px 15px;
+  padding: 5px 15px;
+}
+.box-3-i {
+  color:#dedede;
+}
+.img-1 {
+  height: 20px;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
